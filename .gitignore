@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local data / generated outputs
+data/raw/
+data/external/
+results/*.csv
+results/*.parquet
+results/*.pkl
+results/*.npz
+results/*.npy
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets / local config
+.env
+*.env
